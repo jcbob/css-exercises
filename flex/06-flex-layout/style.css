@@ -30,6 +30,26 @@ input {
   margin-bottom: 16px;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:link{
+  color: rgb(71, 65, 65);
+}
+
+a:visited{
+  color: rgb(71, 65, 65);
+}
+
+a:hover{
+  color:hsl(46, 89%, 45%);
+}
+
+a:active{
+  color: rgb(255,255,255);
+}
+
 ul{
   list-style: none;
   padding: 0;
